@@ -1,0 +1,46 @@
+
+
+/* Language menu flag */
+
+.lang-flag {
+	margin-right: .3rem;
+	width: 15px;
+	margin-top: -2px;
+}
+
+#footer {
+
+	.lang-list {
+	  	margin: .6rem -.4rem 0 -.4rem;
+	  	padding: 0;
+	  	list-style: none;
+
+		li {
+		  	display: inline-block;
+			vertical-align: middle;
+		  	margin: 0 .4rem;
+
+			a {
+				color: inherit;
+			}
+		}
+
+		.lang-shortname {
+		  display: none;
+		}
+	}
+
+}
+
+
+
+@media only screen and (max-width: $wmediumdevice){
+
+	.lang-shortname {
+		display: none;
+	}
+
+	.lang-fullname {
+		display: inline-block;
+	}
+}
