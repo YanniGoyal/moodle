@@ -1,0 +1,22 @@
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+
+/**
+ *
+ * @package    local_mb2builder
+ * @copyright  2018 - 2022 Mariusz Boloz (mb2themes.com)
+ * @license    Commercial https://themeforest.net/licenses
+ */
+define(["jquery","local_mb2builder/selectors","theme_mb2nl/jarallax"],function(a,l,r){return{parallaxInit:function(r){r?r.jarallax():a(l.layout.row+".parallax1").each(function(){a(this).jarallax()})},parallaxDestroy:function(a){a.jarallax("destroy")}}});
