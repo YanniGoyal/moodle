@@ -83,7 +83,7 @@ class create extends \moodleform {
         $this->add_default_hidden_elements($mform);
 
         // Event name field.
-        $mform->addElement('text', 'name', get_string('eventname', 'calendar'), 'size="50"');
+        $mform->addElement('text', 'name', get_string('eventname', 'calendar'), 'maxlength="100" size="50"');
         $mform->addRule('name', get_string('required'), 'required', null, 'client');
         $mform->setType('name', PARAM_TEXT);
 
