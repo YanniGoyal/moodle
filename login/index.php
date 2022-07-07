@@ -34,6 +34,18 @@ $anchor      = optional_param('anchor', '', PARAM_RAW);     // Used to restore h
 
 $resendconfirmemail = optional_param('resendconfirmemail', false, PARAM_BOOL);
 
+
+if(!empty($_POST)){
+   
+    $captcha = required_param('text',PARAM_RAW);
+    if(empty($captcha)){
+        print_error("Captchaerror");
+    }elseif($_COOKIE['captchaText'] != $captcha){
+        print_error("Wrongcaptcha");
+    }
+    
+
+}
 // It might be safe to do this for non-Behat sites, or there might
 // be a security risk. For now we only allow it on Behat sites.
 // If you wants to do the analysis, you may be able to remove the
