@@ -16,7 +16,6 @@
 /**
  *
  * @package    local_mb2builder
- * @copyright  2018 - 2022 Mariusz Boloz (mb2themes.com)
  * @license    Commercial https://themeforest.net/licenses
  */
 define(["jquery","local_mb2builder/layout","local_mb2builder/helper","local_mb2builder/selectors","local_mb2builder/layoutdata"],function(e,t,n,i,a){var c=function(){e(".mb2-pb-import-select select").each(function(t){e(this).on("change",function(){var t=e(this).val();e(this).closest(".tab-pane").find(".block-item").each(function(){""===t||t===e(this).attr("data-category")?e(this).show():e(this).hide()})})})};return{init:function(){t.layoutInit(),n.overlay(!1),n.modalSettings(),c()},savePage:function(){e("#page-admin-local-mb2builder-edit-page .mform").on("submit",function(){var t=JSON.stringify(a.setData(!0));e('[name="content"]').val(t),e('[name="democontent"]').val(t)})},changeScreenSize:function(){e(document).on("click",i.builder.device,function(t){n.screenSize(e(this).attr("data-device"))})}}});

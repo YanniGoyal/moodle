@@ -19,7 +19,6 @@ import {get_string as getString} from 'core/str';
 /**
  * A javascript module for the time in the assign module.
  *
- * @copyright  2020 Matt Porritt <mattp@catalyst-au.net>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

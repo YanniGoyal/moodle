@@ -18,8 +18,7 @@
  * category management screen.
  *
  * @module     core_course/copy_modal
- * @copyright  2020 onward The Moodle Users Association <https://moodleassociation.org/>
- * @author     Matt Porritt <mattp@catalyst-au.net>
+ * @author     Matt Porritt <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @since      3.9
  */

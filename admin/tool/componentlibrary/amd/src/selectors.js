@@ -17,7 +17,6 @@
  * Selectors for the component library
  *
  * @module     tool_componentlibrary/selectors
- * @copyright  2021 Bas Brands <bas@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 export default {

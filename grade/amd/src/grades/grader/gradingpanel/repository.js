@@ -17,7 +17,6 @@
  * Repository for simple direct grading panel.
  *
  * @module     core_grades/grades/grader/gradingpanel/repository
- * @copyright  2019 Andrew Nicols <andrew@nicols.co.uk>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 import {call as fetchMany} from 'core/ajax';

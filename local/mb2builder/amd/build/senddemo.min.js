@@ -16,7 +16,6 @@
 /**
  *
  * @package    local_mb2builder
- * @copyright  2018 - 2022 Mariusz Boloz (mb2themes.com)
  * @license    Commercial https://themeforest.net/licenses
  */
 define(["jquery","local_mb2builder/selectors","local_mb2builder/layoutdata"],function(e,r,a){return{saveDemo:function(){var t=e(r.builder.demoform),i=t.attr("data-url"),l=JSON.stringify(a.setData(!1));e(r.builder.demofield).val(l),e.ajax({type:"POST",url:i,data:t.serialize(),beforeSend:function(){},error:function(e,r,a){},success:function(e){}})}}});

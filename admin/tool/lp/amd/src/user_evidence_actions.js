@@ -17,7 +17,6 @@
  * User evidence actions.
  *
  * @module     tool_lp/user_evidence_actions
- * @copyright  2015 Frédéric Massart - FMCorz.net
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery',

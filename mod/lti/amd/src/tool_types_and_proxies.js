@@ -18,7 +18,6 @@
  *
  * @module     mod_lti/tool_types_and_proxies
  * @class      tool_types_and_proxies
- * @copyright  2020 Andrew Madden <andrewmadden@catalyst-au.net>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @since      4.0
  */

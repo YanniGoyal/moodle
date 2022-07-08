@@ -18,7 +18,6 @@
  * Defines the function to be used from the mobile course view template.
  *
  * @package   mod_bigbluebuttonbn
- * @copyright 2010 onwards, Blindside Networks Inc
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @author    Laurent David  (laurent [at] call-learning [dt] fr)
  */

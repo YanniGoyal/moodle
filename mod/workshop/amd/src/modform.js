@@ -17,7 +17,6 @@
  * Additional javascript for the Workshop module form.
  *
  * @module      mod_workshop/modform
- * @copyright   The Open University 2018
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery'], function($) {

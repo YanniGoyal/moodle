@@ -17,7 +17,6 @@
  * Javascript module to control the template editor.
  *
  * @module      mod_data/templateseditor
- * @copyright   2021 Mihail Geshoski <mihail@moodle.com>
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

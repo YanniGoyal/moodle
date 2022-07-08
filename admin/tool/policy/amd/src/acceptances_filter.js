@@ -17,7 +17,6 @@
  * Unified filter page JS module for the course participants page.
  *
  * @module     tool_policy/acceptances_filter
- * @copyright  2017 Jun Pataleta
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/form-autocomplete', 'core/str', 'core/notification'],

@@ -18,7 +18,6 @@
  * Javascript to initialise the Recently accessed items block.
  *
  * @module     block_recentlyaccesseditems/main
- * @copyright  2018 Victor Deniz <victor@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

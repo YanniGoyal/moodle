@@ -2,7 +2,6 @@
  * User tour control library.
  *
  * @module     tool_usertours/usertours
- * @copyright  2016 Andrew Nicols <andrew@nicols.co.uk>
  */
 import BootstrapTour from './tour';
 import Templates from 'core/templates';

@@ -16,7 +16,6 @@
 /**
  *
  * @package    local_mb2builder
- * @copyright  2018 - 2022 Mariusz Boloz (mb2themes.com)
  * @license    Commercial https://themeforest.net/licenses
  */
 define(["jquery","local_mb2builder/selectors","theme_mb2nl/jarallax"],function(a,l,r){return{parallaxInit:function(r){r?r.jarallax():a(l.layout.row+".parallax1").each(function(){a(this).jarallax()})},parallaxDestroy:function(a){a.jarallax("destroy")}}});

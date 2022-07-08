@@ -17,7 +17,6 @@
  * Module to navigation between users in a course.
  *
  * @module report_competency/user_course_navigation
- * @copyright  2015 Damyon Wiese
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

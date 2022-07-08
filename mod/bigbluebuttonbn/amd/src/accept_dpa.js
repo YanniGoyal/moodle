@@ -18,7 +18,6 @@
  * the BigBlueButton activity module.
  *
  * @module      mod_bigbluebuttonbn/accept_dpa
- * @copyright   2022 Mihail Geshoski <mihail@moodle.com>
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

@@ -17,7 +17,6 @@
  * A javascript module to handle toggling activity chooser recommendations.
  *
  * @module     core_course/recommendations
- * @copyright  2020 Adrian Greeve <adrian@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

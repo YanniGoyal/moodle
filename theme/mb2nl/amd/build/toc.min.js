@@ -16,7 +16,6 @@
 /**
  *
  * @package   theme_mb2nl
- * @copyright 2017 - 2022 Mariusz Boloz (https://mb2themes.com)
  * @license   Commercial https://themeforest.net/licenses
  */
  define(["jquery"],function(t){return{tocInit:function(){t(".theme-toc").closest(".generalbox").find("h3,h4,h5,h6").each(function(){var c=t(this).html().replace(/[^a-z0-9]/gi,"_");t(this).attr("id",c.trim())})},courseToc:function(){t(".coursetoc-section-toggle").click(function(c){var e=t(this).closest(".coursetoc-section");e.hasClass("active")?e.removeClass("active"):e.addClass("active")})}}});

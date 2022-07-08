@@ -17,7 +17,6 @@
  * Module to handle AJAX interactions with content bank upload files.
  *
  * @module     core_contentbank/upload
- * @copyright  2021 Sara Arjona <sara@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 import ModalForm from 'core_form/modalform';

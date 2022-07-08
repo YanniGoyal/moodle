@@ -18,7 +18,6 @@
  *
  * This module is compatible with core/form-autocomplete.
  *
- * @copyright  2017 Jun Pataleta
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

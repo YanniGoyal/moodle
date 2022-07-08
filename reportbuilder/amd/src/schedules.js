@@ -17,7 +17,6 @@
  * Report builder audiences
  *
  * @module      core_reportbuilder/schedules
- * @copyright   2021 Paul Holden <paulh@moodle.com>
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

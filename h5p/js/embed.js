@@ -20,7 +20,6 @@
  *
  * @type {H5PEmbedCommunicator}
  * @module     core_h5p
- * @copyright  2019 Joubel AS <contact@joubel.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 H5PEmbedCommunicator = (function() {

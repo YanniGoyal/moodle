@@ -17,7 +17,6 @@
  * JS for the recordings page on mod_bigbluebuttonbn plugin.
  *
  * @module      mod_bigbluebuttonbn/recordings
- * @copyright   2021 Blindside Networks Inc
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

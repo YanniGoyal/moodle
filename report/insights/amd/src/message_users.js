@@ -17,7 +17,6 @@
  * Message users.
  *
  * @module     report_insights/message_users
- * @copyright  2019 David Monllao
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/str', 'core/log', 'core/modal_factory', 'core/modal_events', 'core/templates',

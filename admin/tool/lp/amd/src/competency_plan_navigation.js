@@ -17,7 +17,6 @@
  * Event click on selecting competency in the competency autocomplete.
  *
  * @module     tool_lp/competency_plan_navigation
- * @copyright  2016 Issam Taboubi <issam.taboubi@umontreal.ca>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

@@ -16,7 +16,6 @@
 /**
  *
  * @package   theme_mb2nl
- * @copyright 2017 - 2022 Mariusz Boloz (https://mb2themes.com)
  * @license   Commercial https://themeforest.net/licenses
  */
  define(["jquery","theme_mb2nl/spectrum"],function(t,o){return{colorpickerlInit:function(o,e,r){t('input.mb2color, .mb2color input[type="text"]').each(function(){t(this).spectrum({showInput:!0,showButtons:!1,preferredFormat:"rgb",allowEmpty:!0,color:"",showAlpha:!0})})}}});

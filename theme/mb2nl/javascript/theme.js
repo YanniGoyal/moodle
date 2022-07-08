@@ -1,7 +1,6 @@
 /**
  *
  * @package   theme_mb2nl
- * @copyright 2017 - 2020 Mariusz Boloz (https://mb2themes.com)
  * @license   Commercial https://themeforest.net/licenses
  *
  */

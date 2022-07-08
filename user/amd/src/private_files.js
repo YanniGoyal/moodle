@@ -17,7 +17,6 @@
  * Module to handle AJAX interactions with user private files
  *
  * @module     core_user/private_files
- * @copyright  2020 Marina Glancy
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 import DynamicForm from 'core_form/dynamicform';

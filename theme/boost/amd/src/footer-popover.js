@@ -17,7 +17,6 @@
  * Shows the footer content in a popover.
  *
  * @module     theme_boost/footer-popover
- * @copyright  2021 Bas Brands
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

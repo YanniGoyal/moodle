@@ -17,7 +17,6 @@
  * Add search filtering of available language packs
  *
  * @module      tool_langimport/search
- * @copyright   2021 Paul Holden <paulh@moodle.com>
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

@@ -17,7 +17,6 @@
  * Initialise the repaginate dialogue on quiz editing page.
  *
  * @module    mod_quiz/repaginate
- * @copyright 2019 The Open University
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/modal_factory'], function($, ModalFactory) {

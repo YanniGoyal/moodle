@@ -16,7 +16,6 @@
 /**
  *
  * @package   theme_mb2nl
- * @copyright 2017 - 2022 Mariusz Boloz (https://mb2themes.com)
  * @license   Commercial https://themeforest.net/licenses
  */
  define(["jquery","theme_mb2nl/inview"],function(n,t){return{animnumInit:function(){n(".pbanimnum-item,.mb2-pb-animnum_item").each(function(){var t=n(this),i=!0;t.on("inview",function(n,e){e&&i&&(i=!1,setTimeout(function(){var n=t.find(".pbanimnum-number"),i=t.closest(".mb2-pb-animnum").attr("data-aspeed");i=Number(i),t.prop("Counter",0).stop().animate({Counter:t.attr("data-number")},{duration:i,easing:"swing",step:function(t){n.text(this.Counter.toFixed())}})},600))})})}}});

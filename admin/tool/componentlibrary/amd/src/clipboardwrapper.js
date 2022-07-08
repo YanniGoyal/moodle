@@ -17,7 +17,6 @@
  * Wrapper to ensure that all Hugo example snippets have a "Copy to clipboard" button.
  *
  * @module     tool_componentlibrary/clipboardwrapper
- * @copyright  2021 Bas Brands <bas@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 import 'core/copy_to_clipboard';

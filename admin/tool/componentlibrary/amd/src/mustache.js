@@ -17,7 +17,6 @@
  * Render mustache template examples within the component library.
  *
  * @module     tool_componentlibrary/mustache
- * @copyright  2021 Bas Brands <bas@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

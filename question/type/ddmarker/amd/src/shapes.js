@@ -22,7 +22,6 @@
  * representation, and can give you an SVG representation.
  *
  * @module qtype_ddmarker/shapes
- * @copyright  2018 The Open University
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

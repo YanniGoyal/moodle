@@ -17,7 +17,6 @@
  * Javascript module for using an existing template
  *
  * @module      mod_feedback/usetemplate
- * @copyright   2021 Peter Dias
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

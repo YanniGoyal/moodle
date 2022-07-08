@@ -17,7 +17,6 @@
  * This module adds ajax search functions to the template library page.
  *
  * @module     tool_templatelibrary/search
- * @copyright  2015 Damyon Wiese <damyon@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/ajax', 'core/log', 'core/notification', 'core/templates', 'core/config'],

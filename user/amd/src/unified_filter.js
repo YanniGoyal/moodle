@@ -18,7 +18,6 @@
  *
  * @deprecated since Moodle 3.9 MDL-68612 - user unified filter replaced by participants filter.
  * @module     core_user/unified_filter
- * @copyright  2017 Jun Pataleta
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/form-autocomplete', 'core/str', 'core/notification'],

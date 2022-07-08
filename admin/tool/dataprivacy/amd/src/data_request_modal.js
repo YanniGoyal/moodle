@@ -17,7 +17,6 @@
  * Request actions.
  *
  * @module     tool_dataprivacy/data_request_modal
- * @copyright  2018 Jun Pataleta
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/notification', 'core/custom_interaction_events', 'core/modal', 'core/modal_registry',

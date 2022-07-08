@@ -2,7 +2,6 @@
  * Tour management code.
  *
  * @module     tool_usertours/managetours
- * @copyright  2016 Andrew Nicols <andrew@nicols.co.uk>
  */
 import {prefetchStrings} from 'core/prefetch';
 import {get_string as getString} from 'core/str';

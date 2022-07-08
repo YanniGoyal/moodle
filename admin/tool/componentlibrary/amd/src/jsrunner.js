@@ -17,7 +17,6 @@
  * Run the JS required for example code to work in the library.
  *
  * @module     tool_componentlibrary/jsrunner
- * @copyright  2021 Bas Brands <bas@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

@@ -17,7 +17,6 @@
  * Full screen window layout.
  *
  * @module mod_forum/local/layout/fullscreen
- * @copyright  2019 Andrew Nicols <andrew@nicols.co.uk>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

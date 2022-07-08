@@ -21,7 +21,6 @@
  * depending on the value of multiSelect.
  *
  * @module     tool_lp/competencypicker
- * @copyright  2015 Frédéric Massart - FMCorz.net
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
