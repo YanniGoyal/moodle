@@ -16,7 +16,6 @@
  * Module supporting the dynamic and manual registration URLs in the tool registration admin setting.
  *
  * @module     enrol_lti/tool_endpoints
- * @copyright  2021 Jake Dallimore <jrhdallimore@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 import 'core/copy_to_clipboard';

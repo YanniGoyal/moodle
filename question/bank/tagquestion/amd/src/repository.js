@@ -18,7 +18,6 @@
  *
  * @module     qbank_tagquestion/repository
  * @class      repository
- * @copyright  2017 Simey Lameze <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/ajax'], function($, Ajax) {

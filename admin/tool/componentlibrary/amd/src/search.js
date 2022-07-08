@@ -17,7 +17,6 @@
  * Interface to the Lunr search engines.
  *
  * @module     tool_componentlibrary/search
- * @copyright  2021 Bas Brands <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

@@ -17,7 +17,6 @@
  * Send bulk message to the given user ids.
  *
  * @module     core_message/message_send_bulk
- * @copyright  2019 Shamim Rezaie <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 import {get_string} from 'core/str';

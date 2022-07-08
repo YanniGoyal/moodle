@@ -17,7 +17,6 @@
  * JS actions for the rooms page for mod_bigbluebuttonbn.
  *
  * @module      mod_bigbluebuttonbn/rooms
- * @copyright   2021 Blindside Networks Inc
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

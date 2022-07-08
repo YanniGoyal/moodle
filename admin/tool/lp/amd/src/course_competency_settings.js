@@ -17,7 +17,6 @@
  * Change the course competency settings in a popup.
  *
  * @module     tool_lp/configurecoursecompetencysettings
- * @copyright  2015 Damyon Wiese <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery',

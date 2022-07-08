@@ -18,7 +18,6 @@
  *
  * @module     mod_customcert/rearrange-area
  * @package    mod_customcert
- * @copyright  2016 Mark Nelson <markn@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/yui', 'core/fragment', 'mod_customcert/dialogue', 'core/notification',

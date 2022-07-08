@@ -16,7 +16,6 @@
  * Course format selection handler.
  *
  * @module     core_course/formatchooser
- * @copyright  2022 Andrew Nicols < >
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @since      4.0
  */

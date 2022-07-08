@@ -17,7 +17,6 @@
  * Competency frameworks actions via ajax.
  *
  * @module     tool_lp/frameworkactions
- * @copyright  2015 Damyon Wiese <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/templates', 'core/ajax', 'core/notification', 'core/str'], function($, templates, ajax, notification, str) {

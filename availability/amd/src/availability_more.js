@@ -17,7 +17,6 @@
  * Show more action for availablity information.
  *
  * @module     core_availability/availability_more
- * @copyright  2021 Bas Brands <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

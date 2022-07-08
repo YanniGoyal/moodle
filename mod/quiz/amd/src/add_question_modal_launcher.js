@@ -17,7 +17,6 @@
  * Initialise the an add question modal on the quiz page.
  *
  * @module    mod_quiz/add_question_modal_launcher
- * @copyright 2018 Ryan Wyllie <>
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(

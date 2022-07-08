@@ -20,7 +20,6 @@
  * See also: mod/lti/externalregistrationreturn.php
  *
  * @module     mod_lti/external_registration_return
- * @copyright  2015 Ryan Wyllie <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @since      3.1
  */

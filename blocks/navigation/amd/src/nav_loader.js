@@ -17,7 +17,6 @@
  * Load the nav tree items via ajax and render the response.
  *
  * @module     block_navigation/nav_loader
- * @copyright  2015 John Okely <john@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/ajax', 'core/config', 'block_navigation/ajax_response_renderer'],

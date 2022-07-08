@@ -17,7 +17,6 @@
  * Toggling the visibility of the secondary navigation on mobile.
  *
  * @module     theme_boost/drawers
- * @copyright  2021 Bas Brands
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 import ModalBackdrop from 'core/modal_backdrop';

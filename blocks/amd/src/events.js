@@ -15,8 +15,7 @@
 /**
  * Javascript events for the `core_block` subsystem.
  *
- * @module     core_block/events
- * @copyright  2021 Andrew Nicols < >
+ * @module     core_block/events < >
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @since      4.0
  *

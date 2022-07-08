@@ -18,7 +18,6 @@
  * message preference page.
  *
  * @module     core_message/notification_preference
- * @copyright  2016 Ryan Wyllie <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/ajax', 'core/notification', 'core_message/notification_processor'],

@@ -23,7 +23,6 @@
  * This is the only module that ever modifies the UI of the conversation page.
  *
  * @module     core_message/message_drawer_view_conversation_renderer
- * @copyright  2018 Ryan Wyllie <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(

@@ -17,7 +17,6 @@
  * Enhance the gradebook tree setup with various facilities.
  *
  * @module     core_grades/edittree_index
- * @copyright  2016 Andrew Nicols < >
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define([

@@ -17,7 +17,6 @@
  * Contain the logic for the quick add or update event modal.
  *
  * @module     core_calendar/modal_quick_add_event
- * @copyright  2017 Ryan Wyllie <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define([

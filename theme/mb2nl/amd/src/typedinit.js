@@ -16,7 +16,6 @@
 /**
  *
  * @package   theme_mb2nl
- * @copyright 2017 - 2022 Mariusz Boloz (https://mb2themes.com)
  * @license   Commercial https://themeforest.net/licenses
  */
  define(["jquery","theme_mb2nl/typed"],function(t,e){var a=function(t){return{strings:t.attr("data-typedtext").split("|"),typeSpeed:Number(t.attr("data-typespeed")),backSpeed:Number(t.attr("data-backspeed")),backDelay:Number(t.attr("data-backdelay")),loop:!0}};return{typedInit:function(d){new e("#"+d+" .typed",a(t("#"+d)))}}});

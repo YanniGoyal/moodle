@@ -17,7 +17,6 @@
  * Report builder card view editor
  *
  * @module      core_reportbuilder/local/editor/card_view
- * @copyright   2021 Mikel Martín <mikel@moodle.com>
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

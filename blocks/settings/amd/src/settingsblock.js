@@ -17,7 +17,6 @@
  * Load the settings block tree javscript
  *
  * @module     block_settings/settingsblock
- * @copyright  2015 John Okely <john@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 import {notifyBlockContentUpdated} from 'core_block/events';

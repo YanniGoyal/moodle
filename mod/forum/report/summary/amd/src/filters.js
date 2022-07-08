@@ -17,7 +17,6 @@
  * Module responsible for handling forum summary report filters.
  *
  * @module     forumreport_summary/filters
- * @copyright  2019 Michael Hawkins <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

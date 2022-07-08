@@ -19,7 +19,6 @@
  * @deprecated since Moodle 4.0
  * @todo Final deprecation on Moodle 4.4 MDL-72438
  * @module     core_question/question_selectors
- * @copyright  2018 Simey Lameze <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define([], function() {

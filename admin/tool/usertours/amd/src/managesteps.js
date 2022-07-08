@@ -2,7 +2,6 @@
  * Step management code.
  *
  * @module     tool_usertours/managesteps
- * @copyright  2016 Andrew Nicols < >
  */
 import {prefetchStrings} from 'core/prefetch';
 import {get_string as getString} from 'core/str';

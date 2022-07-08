@@ -16,7 +16,6 @@
 /**
  *
  * @package    local_mb2builder
- * @copyright  2018 - 2022 Mariusz Boloz (mb2themes.com)
  * @license    Commercial https://themeforest.net/licenses
  */
 define(["jquery","theme_mb2nl/typed","local_mb2builder/selectors","local_mb2builder/helper"],function(t,e,a,n){var r=function(t){var e=t.closest(a.layout.element);return{strings:e.attr("data-typedtext").split("|"),typeSpeed:Number(e.attr("data-typespeed")),backSpeed:Number(e.attr("data-backspeed")),backDelay:Number(e.attr("data-backdelay")),loop:!0}};return{typedInit:function(a){new e("#"+a+" .typed",r(t("#"+a)))},typedDestroy:function(e){var n=t("#"+e),r=n.closest(a.layout.element);n.html(r.attr("data-content"))},beforeTypedInit:function(e){var n=t("#"+e),r=n.closest(a.layout.element);if(r.attr("data-content").includes("type")){for(var d=r.attr("data-content").split(" "),l=0;l<d.length;l++)"type"===d[l]&&(d[l]='<span class="typed"></span>');n.html(d.join(" "))}else t("#"+e).html(r.attr("data-content")+' <span class="typed"></span>')},typedPrepare:function(t){var e=n.uniqId();t.find(".heading").attr("id","typedid_"+e)}}});

@@ -17,7 +17,6 @@
  * Handle selection changes on the competency tree.
  *
  * @module     tool_lp/competencyselect
- * @copyright  2015 Damyon Wiese <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['core/ajax', 'core/notification', 'core/templates', 'tool_lp/tree', 'tool_lp/competency_outcomes', 'jquery'],

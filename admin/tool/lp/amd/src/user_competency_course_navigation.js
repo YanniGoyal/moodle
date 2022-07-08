@@ -17,7 +17,6 @@
  * Module to enable inline editing of a comptency grade.
  *
  * @module     tool_lp/user_competency_course_navigation
- * @copyright  2015 Damyon Wiese
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

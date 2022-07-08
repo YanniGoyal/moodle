@@ -18,7 +18,6 @@
  *
  * @module     core_courseformat/local/courseindex/courseindex
  * @class     core_courseformat/local/courseindex/courseindex
- * @copyright  2021 Ferran Recio <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

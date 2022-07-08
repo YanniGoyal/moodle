@@ -19,7 +19,6 @@
  *
  * @module     core_courseformat/local/courseeditor/exporter
  * @class      core_courseformat/local/courseeditor/exporter
- * @copyright  2021 Ferran Recio <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 export default class {

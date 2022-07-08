@@ -16,7 +16,6 @@
 /* eslint-env node */
 
 /**
- * @copyright  2021 Andrew Nicols
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

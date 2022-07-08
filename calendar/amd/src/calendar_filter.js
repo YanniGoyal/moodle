@@ -17,7 +17,6 @@
  * This module is responsible for the calendar filter.
  *
  * @module     core_calendar/calendar_filter
- * @copyright  2017 Andrew Nicols < >
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define([

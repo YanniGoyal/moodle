@@ -17,7 +17,6 @@
  * This module is responsible for PayPal content in the gateways modal.
  *
  * @module     paygw_paypal/gateway_modal
- * @copyright  2020 Shamim Rezaie <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

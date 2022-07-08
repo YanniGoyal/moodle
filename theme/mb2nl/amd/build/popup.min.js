@@ -16,7 +16,6 @@
 /**
  *
  * @package   theme_mb2nl
- * @copyright 2017 - 2022 Mariusz Boloz (https://mb2themes.com)
  * @license   Commercial https://themeforest.net/licenses
  */
  define(["jquery","theme_mb2nl/magnific"],function(e,i){return{popupImage:function(){e(".popup-image").magnificPopup({type:"image"})}}});

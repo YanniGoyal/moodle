@@ -21,7 +21,6 @@
  * triggered within the calendar UI.
  *
  * @module     mod_forum/pin_toggle
- * @copyright  2018 Andrew Nicols < >
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define([

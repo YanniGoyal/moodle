@@ -17,7 +17,6 @@
  * Report builder filter management
  *
  * @module      core_reportbuilder/filters
- * @copyright   2021 Paul Holden <>
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

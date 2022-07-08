@@ -17,7 +17,6 @@
  * Handle selecting parent competency in competency form.
  *
  * @module     tool_lp/parentcompetency_form
- * @copyright  2015 Issam Taboubi <issam.taboubi@umontreal.ca>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/ajax', 'core/str', 'tool_lp/competencypicker', 'core/templates', 'core/notification'],

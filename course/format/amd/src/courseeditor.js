@@ -17,7 +17,6 @@
  * Generic reactive module used in the course editor.
  *
  * @module     core_courseformat/courseeditor
- * @copyright  2021 Ferran Recio <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

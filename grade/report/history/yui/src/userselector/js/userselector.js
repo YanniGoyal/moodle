@@ -18,7 +18,6 @@
  *
  * @module     moodle-gradereport_history-userselector
  * @package    gradereport_history
- * @copyright  2013 NetSpot Pty Ltd (https://www.netspot.com.au)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @main       moodle-gradereport_history-userselector
  */

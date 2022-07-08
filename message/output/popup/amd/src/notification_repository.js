@@ -17,7 +17,6 @@
  * Retrieves notifications from the server.
  *
  * @module     message_popup/notification_repository
- * @copyright  2016 Ryan Wyllie <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['core/ajax', 'core/notification'], function(Ajax, Notification) {

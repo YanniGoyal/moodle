@@ -17,7 +17,6 @@
  * Module to handle filter AJAX requests
  *
  * @module      core_reportbuilder/local/repository/filters
- * @copyright   2021 Paul Holden <>
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

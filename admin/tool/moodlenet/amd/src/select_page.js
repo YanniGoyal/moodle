@@ -17,7 +17,6 @@
  * When returning to Moodle let the user select which course to add the resource to.
  *
  * @module     tool_moodlenet/select_page
- * @copyright  2020 Mathew May <mathew.solutions>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -165,7 +164,6 @@ define([
      *
      * @method debounce
      * @from underscore.js
-     * @copyright 2009-2020 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
      * @licence MIT
      * @param {function} func The function we want to keep calling
      * @param {number} wait Our timeout

@@ -17,7 +17,6 @@
  * Module to message a user from their profile page.
  *
  * @module     core_message/message_user_button
- * @copyright  2019 Mark Nelson <markn@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/custom_interaction_events', 'core_message/message_drawer_helper', 'core/templates'],

@@ -18,7 +18,6 @@
  * can be sent for forum.
  *
  * @module     mod_forum/repository
- * @copyright  2019 Andrew Nicols < >
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['core/ajax'], function(Ajax) {

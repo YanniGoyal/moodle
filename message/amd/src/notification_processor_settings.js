@@ -17,7 +17,6 @@
  * Load the settings for a message processor.
  *
  * @module     core_message/notification_processor_settings
- * @copyright  2016 Ryan Wyllie <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define([

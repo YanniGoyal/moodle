@@ -19,7 +19,6 @@
  *
  * @module     core_message/default_notification_preferences
  * @class      default_notification_preferences
- * @copyright  2021 Moodle
  * @author     Pau Ferrer Ocaña <pau@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */

@@ -17,7 +17,6 @@
  * Handles events related to the multiple-choice question type answers.
  *
  * @module     qtype_multichoice/answers
- * @copyright  2020 Jun Pataleta <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

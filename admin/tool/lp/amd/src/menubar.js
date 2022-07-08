@@ -18,7 +18,6 @@
  * Based on the open ajax example: http://oaa-accessibility.org/example/26/
  *
  * @module     tool_lp/menubar
- * @copyright  2015 Damyon Wiese <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery'], function($) {

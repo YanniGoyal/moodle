@@ -17,7 +17,6 @@
  * Controls the group info page of the message drawer.
  *
  * @module     core_message/message_drawer_view_group_info
- * @copyright  2018 Ryan Wyllie <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(

@@ -17,7 +17,6 @@
  * Module to handle AJAX interactions.
  *
  * @module     core_user/repository
- * @copyright  2020 Andrew Nicols < >
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 import {call as fetchMany} from 'core/ajax';
