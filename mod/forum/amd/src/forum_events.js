@@ -17,7 +17,7 @@
  * Events for the forum activity.
  *
  * @module     mod_forum/forum_events
- * @copyright  2019 Jun Pataleta <jun@moodle.com>
+ * @copyright  2019 Jun Pataleta <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define([], function() {

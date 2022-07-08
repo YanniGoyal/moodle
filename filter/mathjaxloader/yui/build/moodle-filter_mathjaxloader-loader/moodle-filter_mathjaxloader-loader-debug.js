@@ -19,7 +19,7 @@ YUI.add('moodle-filter_mathjaxloader-loader', function (Y, NAME) {
  * Mathjax JS Loader.
  *
  * @package    filter_mathjaxloader
- * @copyright  2014 Damyon Wiese  <damyon@moodle.com>
+ * @copyright  2014 Damyon Wiese  <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 M.filter_mathjaxloader = M.filter_mathjaxloader || {

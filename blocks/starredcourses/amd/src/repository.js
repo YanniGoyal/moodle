@@ -17,7 +17,7 @@
  * A javascript module to retrieve user's starred courses.
  *
  * @module block_starredcourses/repository
- * @copyright  2018 Simey Lameze <simey@moodle.com>
+ * @copyright  2018 Simey Lameze <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/ajax', 'core/notification'], function($, Ajax, Notification) {

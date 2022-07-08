@@ -18,7 +18,7 @@
  * use the YUI version in AMD code until it is replaced.
  *
  * @module     tool_lp/dialogue
- * @copyright  2015 Damyon Wiese <damyon@moodle.com>
+ * @copyright  2015 Damyon Wiese <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['core/yui'], function(Y) {

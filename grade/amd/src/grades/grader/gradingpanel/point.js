@@ -17,7 +17,7 @@
  * Grading panel for simple direct grading.
  *
  * @module     core_grades/grades/grader/gradingpanel/point
- * @copyright  2019 Andrew Nicols <andrew@nicols.co.uk>
+ * @copyright  2019 Andrew Nicols < >
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

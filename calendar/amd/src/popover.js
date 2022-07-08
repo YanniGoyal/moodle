@@ -17,7 +17,7 @@
  * Javascript popover for the `core_calendar` subsystem.
  *
  * @module core_calendar/popover
- * @copyright 2021 Huong Nguyen <huongnv13@gmail.com>
+ * @copyright 2021 Huong Nguyen <>
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @since 4.0
  */

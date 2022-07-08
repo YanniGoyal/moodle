@@ -17,7 +17,7 @@
  * Javascript module for saving a database as a preset.
  *
  * @module      mod_data/saveaspreset
- * @copyright   2021 Mihail Geshoski <mihail@moodle.com>
+ * @copyright   2021 Mihail Geshoski <>
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

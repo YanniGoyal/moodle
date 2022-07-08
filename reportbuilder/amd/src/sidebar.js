@@ -17,7 +17,7 @@
  * Report builder sidebar component
  *
  * @module      core_reportbuilder/sidebar
- * @copyright   2021 Paul Holden <paulh@moodle.com>
+ * @copyright   2021 Paul Holden <>
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

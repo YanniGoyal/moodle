@@ -17,7 +17,7 @@
  * Define all of the selectors we will be using on the payment interface.
  *
  * @module     core_payment/selectors
- * @copyright  2019 Shamim Rezaie <shamim@moodle.com>
+ * @copyright  2019 Shamim Rezaie <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

@@ -17,7 +17,7 @@
  * Contain the logic for the add random question modal.
  *
  * @module     mod_quiz/modal_add_random_question
- * @copyright  2018 Ryan Wyllie <ryan@moodle.com>
+ * @copyright  2018 Ryan Wyllie <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define([

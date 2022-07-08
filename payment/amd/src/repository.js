@@ -17,7 +17,7 @@
  * Repository for payment subsystem.
  *
  * @module     core_payment/repository
- * @copyright  2020 Shamim Rezaie <shamim@moodle.com>
+ * @copyright  2020 Shamim Rezaie <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

@@ -17,7 +17,7 @@
  * Report builder audiences
  *
  * @module      core_reportbuilder/audience
- * @copyright   2021 David Matamoros <davidmc@moodle.com>
+ * @copyright   2021 David Matamoros <>
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

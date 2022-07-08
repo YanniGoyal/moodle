@@ -19,7 +19,7 @@
  * @deprecated since Moodle 4.0
  * @todo Final deprecation on Moodle 4.4 MDL-72438
  * @module     core_question/repository
- * @copyright  2017 Simey Lameze <lameze@moodle.com>
+ * @copyright  2017 Simey Lameze <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/ajax'], function($, Ajax) {

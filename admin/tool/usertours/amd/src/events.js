@@ -17,7 +17,7 @@
  * Javascript events for the `tool_usertours` subsystem.
  *
  * @module tool_usertours/events
- * @copyright 2021 Andrew Lyons <andrew@nicols.co.uk>
+ * @copyright 2021 Andrew Lyons < >
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  *
  * @example <caption>Example of listening to a step rendering event and cancelling it.</caption>

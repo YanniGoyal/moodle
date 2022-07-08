@@ -17,7 +17,7 @@
  * Javascript module for fixing the position of sticky headers with multiple colspans
  *
  * @module      gradereport_grader/stickycolspan
- * @copyright   2022 Bas Brands <bas@moodle.com>
+ * @copyright   2022 Bas Brands <>
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

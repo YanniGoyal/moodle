@@ -17,7 +17,7 @@
  * Module for the list of discussions on when viewing a forum.
  *
  * @module     mod_forum/discussion_list
- * @copyright  2019 Andrew Nicols <andrew@nicols.co.uk>
+ * @copyright  2019 Andrew Nicols < >
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define([

@@ -17,7 +17,7 @@
  * A javascript module to handler calendar view changes.
  *
  * @module     core_calendar/view_manager
- * @copyright  2017 Andrew Nicols <andrew@nicols.co.uk>
+ * @copyright  2017 Andrew Nicols < >
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

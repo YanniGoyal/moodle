@@ -18,7 +18,7 @@
  * the forum view.
  *
  * @module     mod_forum/subscription_toggle
- * @copyright  2019 Andrew Nicols <andrew@nicols.co.uk>
+ * @copyright  2019 Andrew Nicols < >
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define([

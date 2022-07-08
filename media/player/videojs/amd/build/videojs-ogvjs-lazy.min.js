@@ -1,7 +1,7 @@
 /**
  * videojs-ogvjs
  * @version 0.1.2
- * @copyright 2021 Huong Nguyen <huongnv13@gmail.com>
+ * @copyright 2021 Huong Nguyen <>
  * @license MIT
  */
 /*! @name videojs-ogvjs @version 0.1.2 @license MIT */

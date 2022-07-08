@@ -19,7 +19,7 @@
  * @module     mod_assign/grading_panel
  * @package    mod_assign
  * @class      GradingPanel
- * @copyright  2016 Damyon Wiese <damyon@moodle.com>
+ * @copyright  2016 Damyon Wiese <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @since      3.1
  */

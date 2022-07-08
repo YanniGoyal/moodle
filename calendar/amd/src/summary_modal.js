@@ -17,7 +17,7 @@
  * A javascript module to handle summary modal.
  *
  * @module     core_calendar/summary_modal
- * @copyright  2017 Simey Lameze <simey@moodle.com>
+ * @copyright  2017 Simey Lameze <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define([

@@ -17,7 +17,7 @@
  * Changes the display of directories and files into a tree.
  *
  * @module      block_private_files/files_tree
- * @copyright   2021 Shamim Rezaie <shamim@moodle.com>
+ * @copyright   2021 Shamim Rezaie <>
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 import Tree from 'core/tree';

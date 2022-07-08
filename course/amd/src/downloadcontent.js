@@ -17,7 +17,7 @@
  * Functions related to downloading course content.
  *
  * @module     core_course/downloadcontent
- * @copyright  2020 Michael Hawkins <michaelh@moodle.com>
+ * @copyright  2020 Michael Hawkins <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

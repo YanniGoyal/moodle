@@ -17,7 +17,7 @@
  * Controls the message drawer.
  *
  * @module     core_message/message_drawer
- * @copyright  2018 Ryan Wyllie <ryan@moodle.com>
+ * @copyright  2018 Ryan Wyllie <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(

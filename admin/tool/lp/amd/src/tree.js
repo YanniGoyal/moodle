@@ -22,7 +22,7 @@
  * selected. (Or a single node if multiselect is disabled).
  *
  * @module     tool_lp/tree
- * @copyright  2015 Damyon Wiese <damyon@moodle.com>
+ * @copyright  2015 Damyon Wiese <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/url', 'core/log'], function($, url, log) {

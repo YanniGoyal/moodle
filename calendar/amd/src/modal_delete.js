@@ -17,7 +17,7 @@
  * Contain the logic for the delete modal.
  *
  * @module     core_calendar/modal_delete
- * @copyright  2017 Andrew Nicols <andrew@nicols.co.uk>
+ * @copyright  2017 Andrew Nicols < >
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define([

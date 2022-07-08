@@ -17,7 +17,7 @@
  * Handle actions on learning plan templates via ajax.
  *
  * @module     tool_lp/templateactions
- * @copyright  2015 Damyon Wiese <damyon@moodle.com>
+ * @copyright  2015 Damyon Wiese <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/templates', 'core/ajax', 'core/notification', 'core/str', 'tool_lp/actionselector'],

@@ -18,7 +18,7 @@
  * message preference page
  *
  * @module     core_message/preferences_notifications_list_controller
- * @copyright  2016 Ryan Wyllie <ryan@moodle.com>
+ * @copyright  2016 Ryan Wyllie <>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery',

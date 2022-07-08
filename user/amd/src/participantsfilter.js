@@ -17,7 +17,7 @@
  * Participants filter managemnet.
  *
  * @module     core_user/participants_filter
- * @copyright  2020 Andrew Nicols <andrew@nicols.co.uk>
+ * @copyright  2020 Andrew Nicols < >
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
