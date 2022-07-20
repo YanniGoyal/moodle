@@ -17,6 +17,7 @@
  * Module to navigation between users in a course.
  *
  * @module     tool_lp/module_navigation
+ * @copyright  2019 Damyon Wiese
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

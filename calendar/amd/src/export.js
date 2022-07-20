@@ -17,6 +17,7 @@
  * A javascript module to enhance the calendar export form.
  *
  * @module     core_calendar/export
+ * @copyright  2021 Jun Pataleta
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

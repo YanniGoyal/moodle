@@ -17,6 +17,7 @@
  * Constant values for the conversation page in the message drawer.
  *
  * @module     core_message/message_drawer_view_conversation_constants
+ * @copyright  2018 Ryan Wyllie <ryan@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define([], function() {

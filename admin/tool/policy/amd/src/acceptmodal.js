@@ -17,6 +17,7 @@
  * Add policy consent modal to the page
  *
  * @module     tool_policy/acceptmodal
+ * @copyright  2018 Marina Glancy
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define([

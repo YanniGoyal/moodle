@@ -7,7 +7,7 @@ $CFG = new stdClass();
 $CFG->dbtype    = 'mariadb';
 $CFG->dblibrary = 'native';
 $CFG->dbhost    = 'localhost';
-$CFG->dbname    = 'lmis';
+$CFG->dbname    = 'moodle';
 $CFG->dbuser    = 'root';
 $CFG->dbpass    = '';
 $CFG->prefix    = 'mdl_';
@@ -15,13 +15,12 @@ $CFG->dboptions = array (
   'dbpersist' => 0,
   'dbport' => '',
   'dbsocket' => '',
-  'dbcollation' => 'utf8_unicode_ci',
+  'dbcollation' => 'utf8mb4_unicode_ci',
 );
 
-$CFG->wwwroot   = 'http://localhost/devnihfw';
-$CFG->dataroot  = 'C:\\xampp\\nihfwdatadev';
+$CFG->wwwroot   = 'http://localhost/lmis-moodle';
+$CFG->dataroot  = 'C:\\xampp\\moodledata';
 $CFG->admin     = 'admin';
-$CFG->lang="yourlangcode";
 
 $CFG->directorypermissions = 0777;
 

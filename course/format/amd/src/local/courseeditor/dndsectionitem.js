@@ -21,6 +21,7 @@
  *
  * @module     core_courseformat/local/courseeditor/dndsectionitem
  * @class      core_courseformat/local/courseeditor/dndsectionitem
+ * @copyright  2021 Ferran Recio <ferran@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

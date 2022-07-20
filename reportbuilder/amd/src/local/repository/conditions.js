@@ -17,6 +17,7 @@
  * Module to handle condition AJAX requests
  *
  * @module      core_reportbuilder/local/repository/conditions
+ * @copyright   2021 Paul Holden <paulh@moodle.com>
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

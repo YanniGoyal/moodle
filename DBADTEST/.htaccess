@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Restricted Access"
-AuthUserFile /var/www/html/nihfw-dev_pass
-Require user test_u

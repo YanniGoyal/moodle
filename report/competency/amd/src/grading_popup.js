@@ -17,6 +17,7 @@
  * Module to enable inline editing of a comptency grade.
  *
  * @module report_competency/grading_popup
+ * @copyright  2015 Damyon Wiese
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

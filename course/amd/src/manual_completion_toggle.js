@@ -18,6 +18,7 @@
  * the manual completion button.
  *
  * @module      core_course/manual_completion_toggle
+ * @copyright   2021 Jun Pataleta <jun@moodle.com>
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

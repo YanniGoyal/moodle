@@ -18,6 +18,7 @@
  *
  * @module     core_courseformat/local/content
  * @class      core_courseformat/local/content
+ * @copyright  2020 Ferran Recio <ferran@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

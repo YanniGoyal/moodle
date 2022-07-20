@@ -2,6 +2,7 @@
  * Step management code.
  *
  * @module     tool_usertours/managesteps
+ * @copyright  2016 Andrew Nicols <andrew@nicols.co.uk>
  */
 import {call as fetchMany} from 'core/ajax';
 import moodleConfig from 'core/config';

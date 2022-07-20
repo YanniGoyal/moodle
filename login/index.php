@@ -34,18 +34,6 @@ $anchor      = optional_param('anchor', '', PARAM_RAW);     // Used to restore h
 
 $resendconfirmemail = optional_param('resendconfirmemail', false, PARAM_BOOL);
 
-
-if(!empty($_POST)){
-   
-    $captcha = required_param('text',PARAM_RAW);
-    if(empty($captcha)){
-        print_error("Captchaerror");
-    }elseif($_COOKIE['captchaText'] != $captcha){
-        print_error("Wrongcaptcha");
-    }
-    
-
-}
 // It might be safe to do this for non-Behat sites, or there might
 // be a security risk. For now we only allow it on Behat sites.
 // If you wants to do the analysis, you may be able to remove the
@@ -144,10 +132,8 @@ if ($anchor && isset($SESSION->wantsurl) && strpos($SESSION->wantsurl, '#') === 
 /// Check if the user has actually submitted login data to us
 
 if ($frm and isset($frm->username)) {                             // Login WITH cookies
-   
-    $frm->username = trim(core_text::strtolower($frm->username));
 
-    $frm->password = cryptoJsAesDecrypt('J@NcRfUjXn2r5u8x/A?D(G+KbPdSgVkY', $frm->password);
+    $frm->username = trim(core_text::strtolower($frm->username));
 
     if (is_enabled_auth('none') ) {
         if ($frm->username !== core_user::clean_field($frm->username, 'username')) {
@@ -394,23 +380,3 @@ if (isloggedin() and !isguestuser()) {
 }
 
 echo $OUTPUT->footer();
-
-function cryptoJsAesDecrypt($passphrase, $jsonString){
-    $jsondata = json_decode($jsonString, true);
-    try {
-        $salt = hex2bin($jsondata["s"]);
-        $iv  = hex2bin($jsondata["iv"]);
-    } catch(Exception $e) { return null; }
-    $ct = base64_decode($jsondata["ct"]);
-    $concatedPassphrase = $passphrase.$salt;
-    $md5 = array();
-    $md5[0] = md5($concatedPassphrase, true);
-    $result = $md5[0];
-    for ($i = 1; $i < 3; $i++) {
-        $md5[$i] = md5($md5[$i - 1].$concatedPassphrase, true);
-        $result .= $md5[$i];
-    }
-    $key = substr($result, 0, 32);
-    $data = openssl_decrypt($ct, 'aes-256-cbc', $key, true, $iv);
-    return json_decode($data, true);
-}

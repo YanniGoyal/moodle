@@ -17,6 +17,7 @@
  * Our validator that splits the user's input then fires off to a webservice
  *
  * @module     tool_moodlenet/validator
+ * @copyright  2020 Mathew May <mathew.solutions>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/ajax', 'core/str', 'core/notification'], function($, Ajax, Str, Notification) {

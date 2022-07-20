@@ -17,6 +17,7 @@
  * Module to get the scale values.
  *
  * @module     tool_lp/scalevalues
+ * @copyright  2016 Serge Gauthier
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/ajax'], function($, ajax) {

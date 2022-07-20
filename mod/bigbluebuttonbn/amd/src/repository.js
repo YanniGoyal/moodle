@@ -17,6 +17,7 @@
  * Repository to perform WS calls for mod_bigbluebuttonbn.
  *
  * @module      mod_bigbluebuttonbn/repository
+ * @copyright   2021 Blindside Networks Inc
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

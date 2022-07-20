@@ -20,6 +20,7 @@ import ajax from 'core/ajax';
  *
  * @module     core_courseformat/local/courseeditor/mutations
  * @class     core_courseformat/local/courseeditor/mutations
+ * @copyright  2021 Ferran Recio <ferran@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 export default class {

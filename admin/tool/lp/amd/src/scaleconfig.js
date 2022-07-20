@@ -17,6 +17,7 @@
  * Handle opening a dialogue to configure scale data.
  *
  * @module     tool_lp/scaleconfig
+ * @copyright  2015 Adrian Greeve <adrian@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/notification', 'core/templates', 'core/ajax', 'tool_lp/dialogue', 'tool_lp/scalevalues'],

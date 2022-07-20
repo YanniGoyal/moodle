@@ -17,6 +17,7 @@
  * Module to handle audiences AJAX requests
  *
  * @module      core_reportbuilder/local/repository/audiences
+ * @copyright   2021 David Matamoros <davidmc@moodle.com>
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

@@ -17,6 +17,7 @@
  * Course ID filter.
  *
  * @module     core_user/local/participantsfilter/filtertypes/courseid
+ * @copyright  2020 Andrew Nicols <andrew@nicols.co.uk>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 import Filter from '../filter';

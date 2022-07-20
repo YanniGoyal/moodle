@@ -17,6 +17,7 @@
  * Request actions.
  *
  * @module     tool_dataprivacy/data_deletion
+ * @copyright  2018 Jun Pataleta
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define([

@@ -16,7 +16,8 @@
 /**
  * Javascript to handle changing users via the user selector in the header.
  *
- * @module     mod_assign/grading_navigation <>
+ * @module     mod_assign/grading_navigation
+ * @copyright  2016 Damyon Wiese <damyon@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @since      3.1
  */

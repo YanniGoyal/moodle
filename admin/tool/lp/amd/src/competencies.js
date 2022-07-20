@@ -17,6 +17,7 @@
  * Handle add/remove competency links.
  *
  * @module     tool_lp/competencies
+ * @copyright  2015 Damyon Wiese <damyon@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery',

@@ -20,6 +20,7 @@
  *
  * @module     core_courseformat/local/courseindex/sectiontitle
  * @class      core_courseformat/local/courseindex/sectiontitle
+ * @copyright  2021 Ferran Recio <ferran@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

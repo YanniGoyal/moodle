@@ -16,7 +16,8 @@
 /**
  * Quick enrolment AMD module.
  *
- * @module     enrol_manual/quickenrolment <>
+ * @module     enrol_manual/quickenrolment
+ * @copyright  2016 Damyon Wiese <damyon@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 import * as DynamicTable from 'core_table/dynamic';

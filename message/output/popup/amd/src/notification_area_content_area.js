@@ -18,6 +18,7 @@
  * notification page.
  *
  * @module     message_popup/notification_area_content_area
+ * @copyright  2016 Ryan Wyllie <ryan@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/templates', 'core/notification', 'core/custom_interaction_events',

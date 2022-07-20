@@ -17,6 +17,7 @@
  * AMD module for data registry defaults actions.
  *
  * @module     tool_dataprivacy/defaultsactions
+ * @copyright  2018 Jun Pataleta
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define([

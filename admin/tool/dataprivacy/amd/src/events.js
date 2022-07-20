@@ -17,6 +17,7 @@
  * Contain the events the data privacy tool can fire.
  *
  * @module     tool_dataprivacy/events
+ * @copyright  2018 Jun Pataleta
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define([], function() {

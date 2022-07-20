@@ -17,6 +17,7 @@
  * Content bank UI actions.
  *
  * @module     core_contentbank/sort
+ * @copyright  2020 Bas Brands <bas@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

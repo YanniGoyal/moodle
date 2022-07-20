@@ -18,6 +18,7 @@
  *
  * @package    core
  * @subpackage course
+ * @copyright  2012 Davo Smith
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 M.course_dndupload = {

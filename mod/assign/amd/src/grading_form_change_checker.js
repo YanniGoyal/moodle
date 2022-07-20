@@ -16,7 +16,8 @@
 /**
  * Simple method to check for changes to a form between two points in time.
  *
- * @module     mod_assign/grading_form_change_checker <>
+ * @module     mod_assign/grading_form_change_checker
+ * @copyright  2016 Damyon Wiese <damyon@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @since      3.1
  */

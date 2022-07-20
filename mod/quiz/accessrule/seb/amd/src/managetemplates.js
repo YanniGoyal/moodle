@@ -2,6 +2,7 @@
  * Template management code.
  *
  * @module quizaccess_seb/managetemplates
+ * @copyright  2020 Dmitrii Metelkin <dmitriim@catalyst-au.net>
  */
 define(
     ['jquery', 'core/ajax', 'core/str', 'core/notification'],

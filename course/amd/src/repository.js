@@ -17,6 +17,7 @@
  * A javascript module to handle course ajax actions.
  *
  * @module     core_course/repository
+ * @copyright  2018 Ryan Wyllie <ryan@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

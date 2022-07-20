@@ -17,6 +17,7 @@
  * AMD module to handle overriding activity completion status.
  *
  * @module     report_progress/completion_override
+ * @copyright  2016 onwards Eiz Eddin Al Katrib <eiz@barasoft.co.uk>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @since      3.1
  */

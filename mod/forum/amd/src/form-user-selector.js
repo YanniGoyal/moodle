@@ -17,6 +17,7 @@
  * Enrolled user selector module.
  *
  * @module     mod_forum/form-user-selector
+ * @copyright  2019 Shamim Rezaie
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

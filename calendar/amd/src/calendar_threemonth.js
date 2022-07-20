@@ -20,6 +20,7 @@
  * @deprecated since 4.0 MDL-72810.
  * @todo       MDL-73117 This will be deleted in Moodle 4.4.
  * @module     core_calendar/calendar_threemonth
+ * @copyright  2017 Andrew Nicols <andrew@nicols.co.uk>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define([

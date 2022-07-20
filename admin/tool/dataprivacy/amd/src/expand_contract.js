@@ -17,6 +17,7 @@
  * Potential user selector module.
  *
  * @module     tool_dataprivacy/expand_contract
+ * @copyright  2018 Adrian Greeve
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

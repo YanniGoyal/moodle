@@ -21,6 +21,7 @@
  * The actions have the format [{'text': sometext, 'value' : somevalue}].
  *
  * @module     tool_lp/actionselector
+ * @copyright  2016 Serge Gauthier - <serge.gauthier.2@umontreal.ca>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

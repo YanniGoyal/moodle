@@ -17,6 +17,7 @@
  * Display Competency in dialogue box.
  *
  * @module     tool_lp/Competencydialogue
+ * @copyright  2015 Issam Taboubi <issam.taboubi@umontreal.ca>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery',

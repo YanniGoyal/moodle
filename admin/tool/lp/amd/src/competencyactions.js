@@ -17,6 +17,7 @@
  * Handle selection changes and actions on the competency tree.
  *
  * @module     tool_lp/competencyactions
+ * @copyright  2015 Damyon Wiese <damyon@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery',

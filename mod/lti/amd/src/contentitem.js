@@ -20,6 +20,7 @@
  * See template: mod_lti/contentitem
  *
  * @module     mod_lti/contentitem
+ * @copyright  2016 Jun Pataleta <jun@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @since      3.2
  */
@@ -203,7 +204,7 @@ define(
                 submitAndCourse.onclick = (e) => {
                     e.preventDefault();
                     submitAndCourse.disabled = true;
-                    const fd = new FormData(document.querySelector('form.mform'));
+                    const fd = new FormData(document.querySelector('#region-main-box form'));
                     const postVariant = (promise, variant) => {
                         Object.entries(variant).forEach((entry) => fd.set(entry[0], entry[1]));
                         const body = new URLSearchParams(fd);

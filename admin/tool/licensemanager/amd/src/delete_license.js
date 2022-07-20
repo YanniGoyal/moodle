@@ -17,6 +17,7 @@
  * Modal for confirming deletion of a custom license.
  *
  * @module     tool_licensemanager/delete_license
+ * @copyright  2019 Tom Dickman <tomdickman@catalyst-au.net>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/modal_factory', 'core/modal_events', 'core/url', 'core/str'],

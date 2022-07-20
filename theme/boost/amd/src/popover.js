@@ -17,6 +17,7 @@
  * Backward compatibility file for the old popover.js
  *
  * @module     theme_boost/popover
+ * @copyright  2020 Bas Brands <bas@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

@@ -17,6 +17,7 @@
  * AMD module for model actions confirmation.
  *
  * @module     tool_analytics/model
+ * @copyright  2017 David Monllao
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/str', 'core/log', 'core/notification', 'core/modal_factory', 'core/modal_events', 'core/templates'],

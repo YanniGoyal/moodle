@@ -17,6 +17,7 @@
  * A javascript module to retrieve calendar events from the server.
  *
  * @module     block_timeline/calendar_events_repository
+ * @copyright  2018 Ryan Wyllie <ryan@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 define(['jquery', 'core/ajax', 'core/notification'], function($, Ajax, Notification) {

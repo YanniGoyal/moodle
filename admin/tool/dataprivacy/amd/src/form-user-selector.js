@@ -17,6 +17,7 @@
  * Potential user selector module.
  *
  * @module     tool_dataprivacy/form-user-selector
+ * @copyright  2018 Jun Pataleta
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

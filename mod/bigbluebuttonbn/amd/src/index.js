@@ -17,6 +17,7 @@
  * Index page for the mod_bigbluebuttonbn plugin.
  *
  * @module      mod_bigbluebuttonbn/index
+ * @copyright   2021 Blindside Networks Inc
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

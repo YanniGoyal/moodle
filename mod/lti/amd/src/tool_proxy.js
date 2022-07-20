@@ -17,6 +17,7 @@
  * Provides an interface for a tool proxy in the Moodle server.
  *
  * @module     mod_lti/tool_proxy
+ * @copyright  2015 Ryan Wyllie <ryan@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @since      3.1
  */

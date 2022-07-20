@@ -17,6 +17,7 @@
  * Events for the mod_bigbluebuttonbn plugin.
  *
  * @module      mod_bigbluebuttonbn/events
+ * @copyright   2021 Blindside Networks Inc
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

@@ -17,6 +17,7 @@
  * Javascript module to control the form responsible for selecting a preset.
  *
  * @module      mod_data/selectpreset
+ * @copyright   2021 Mihail Geshoski <mihail@moodle.com>
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

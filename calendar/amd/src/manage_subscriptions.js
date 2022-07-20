@@ -17,6 +17,7 @@
  * A module to handle Delete/Update operations of the manage subscription page.
  *
  * @module core_calendar/manage_subscriptions
+ * @copyright 2021 Huong Nguyen <huongnv13@gmail.com>
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  * @since 4.0
  */

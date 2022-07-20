@@ -17,12 +17,14 @@
  * Report builder filters editor
  *
  * @module      core_reportbuilder/local/editor/filters
+ * @copyright   2021 David Matamoros <davidmc@moodle.com>
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 "use strict";
 
 import $ from 'jquery';
+import CustomEvents from 'core/custom_interaction_events';
 import {dispatchEvent} from 'core/event_dispatcher';
 import 'core/inplace_editable';
 import Notification from 'core/notification';
@@ -50,11 +52,22 @@ const reloadSettingsFiltersRegion = (reportElement, templateContext) => {
     return Templates.renderForPromise('core_reportbuilder/local/settings/filters', {filters: templateContext})
         .then(({html, js}) => {
             Templates.replaceNode(settingsFiltersRegion, html, js);
+
+            initFiltersForm();
+
             // Re-focus the add filter element after reloading the region.
             const reportAddFilter = reportElement.querySelector(reportSelectors.actions.reportAddFilter);
             reportAddFilter?.focus();
+
             return pendingPromise.resolve();
         });
+};
+
+/**
+ * Initialise filters form, must be called on each init because the form container is re-created when switching editor modes
+ */
+const initFiltersForm = () => {
+    CustomEvents.define(reportSelectors.actions.reportAddFilter, [CustomEvents.events.accessibleChange]);
 };
 
 /**
@@ -75,24 +88,23 @@ export const init = initialized => {
         'delete',
     ]);
 
+    initFiltersForm();
     if (initialized) {
         return;
     }
 
-    document.addEventListener('click', event => {
-
-        // Add filter to report.
+    // Add filter to report. Use custom events helper to ensure consistency across platforms.
+    $(document).on(CustomEvents.events.accessibleChange, reportSelectors.actions.reportAddFilter, event => {
         const reportAddFilter = event.target.closest(reportSelectors.actions.reportAddFilter);
         if (reportAddFilter) {
             event.preventDefault();
 
-            const reportElement = reportAddFilter.closest(reportSelectors.regions.report);
-
             // Check if dropdown is closed with no filter selected.
-            if (reportAddFilter.value === '0') {
+            if (reportAddFilter.selectedIndex === 0) {
                 return;
             }
 
+            const reportElement = reportAddFilter.closest(reportSelectors.regions.report);
             const pendingPromise = new Pending('core_reportbuilder/filters:add');
 
             addFilter(reportElement.dataset.reportId, reportAddFilter.value)
@@ -103,6 +115,9 @@ export const init = initialized => {
                 .then(() => pendingPromise.resolve())
                 .catch(Notification.exception);
         }
+    });
+
+    document.addEventListener('click', event => {
 
         // Remove filter from report.
         const reportRemoveFilter = event.target.closest(reportSelectors.actions.reportRemoveFilter);

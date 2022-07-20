@@ -17,6 +17,7 @@
  * AMD module for the user enrolment status field in the course participants page.
  *
  * @module     core_user/status_field
+ * @copyright  2017 Jun Pataleta
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

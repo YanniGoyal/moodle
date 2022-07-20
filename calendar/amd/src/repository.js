@@ -17,6 +17,7 @@
  * A javascript module to handle calendar ajax actions.
  *
  * @module     core_calendar/repository
+ * @copyright  2017 Simey Lameze <lameze@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 import Ajax from 'core/ajax';
