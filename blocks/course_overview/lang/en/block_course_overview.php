@@ -22,6 +22,13 @@
  */
 $string['defaulttitle'] = 'Default title';
 $string['course_overview:addinstance'] = 'Add a new course overview test block';
+$string['past'] = 'Past';
+$string['inprogress'] = 'In progress';
+$string['all'] = 'All';
+$string['future'] = 'Future';
+$string['numofcourses'] = 'Number of Courses';
+$string['defaultnumofcourses'] = 'Default Number of Courses';
+$string['defaultnumofcourses_desc'] = 'Number of Courses seen in pagination';
 $string['course_overview:myaddinstance'] = 'Add a new course overview test block to Dashboard';
 $string['course_overview'] = 'Course Overview 2';
 $string['pluginname'] = 'Course Overview';

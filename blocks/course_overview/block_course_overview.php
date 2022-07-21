@@ -22,7 +22,13 @@
  */
 
 use core_completion\progress;
+// require_once('settings.php');
 class block_course_overview extends block_base {
+    private $displaygroupingall;
+    private $displaygroupinginprogress;
+    private $displaygroupingpast;
+    private $displaygroupingfuture;
+    private $config_numofcourses;
     public function init() {
         $this->title = get_string('pluginname', 'block_course_overview');
     }
@@ -35,10 +41,13 @@ class block_course_overview extends block_base {
 
         return $image;
     }
-    private $displaygroupingfuture;
+    public function has_config() {
+        return true;
+    }
     public function get_content() {
 
         global $DB, $OUTPUT, $USER, $COURSE,$CFG,$PAGE;
+        $config = get_config('block_course_overview');
         require_once($CFG->libdir . '/completionlib.php');
         // require_once($CFG->dirroot . '\completion\classes\progress.php');
         // print_r($CFG);die;
@@ -46,18 +55,20 @@ class block_course_overview extends block_base {
         $PAGE->requires->js_call_amd('block_course_overview/course_overview','Init');
 
         $this->content =  new stdClass;
-        
+        $checkbox = get_config(plugin: "block_course_overview", name: "checkbox");
+        if($checkbox) {
+            print_r('dd');die;
+        }
         if (! empty($this->config->text)) {
             $this->content->text = $this->config->text;
         }
-
+        $page = $config->config_numofcourses;
         $courses = enrol_get_all_users_courses($USER->id, true);
         $courselist = [];
         $courseType = [];
         foreach($courses as $course) {
             $courseCategory = $DB->get_record('course_categories', ['id' => $course->category]);
             $courseImageUrl = \core_course\external\course_summary_exporter::get_course_image($course);
-            $courseimage = new \pix_icon('i/course', 'hhhh');
             $course->id  = $course->id;
             $course->fullname = $course->fullname;
             $course->courseCategory = $courseCategory->name;
@@ -71,8 +82,12 @@ class block_course_overview extends block_base {
             $courselist[] = $course;
         }
         $courseType['allcourses'] = $courselist;
-
+        $courseType['displaygroupingall'] = $config->displaygroupingall;
+        $courseType['displaygroupinginprogress'] = $config->displaygroupinginprogress;
+        $courseType['displaygroupingpast'] = $config->displaygroupingpast;
+        $courseType['displaygroupingfuture'] = $config->displaygroupingfuture;
         $this->content->text = $OUTPUT->render_from_template('block_course_overview/main', $courseType);
     }
+   
    
 }
