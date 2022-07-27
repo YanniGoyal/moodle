@@ -15,17 +15,11 @@ global $DB, $OUTPUT, $USER, $COURSE, $CFG, $PAGE;
 $context = context_system::instance();
 $PAGE->set_context($context);
 $key = $_REQUEST['key'];
+$perpagecourse = $_REQUEST['numofcoursesshow'];
+$start = $_REQUEST['start'];
 $courses = enrol_get_all_users_courses($USER->id, true);
-$courseCount = count($courses) + 1;
-if(count($courses) > 9 ) {
-    $courses = pagination($_POST['page'],$_POST['perpage'],$courses);
-    $pages = ceil($courseCount / 9);
-    $perpage = $courseCount % 9;
-    print_r($pages . " " .$perpage);
-}   
 $courselist = [];
-$courseType = [];
-
+$data = [];
 foreach($courses as $course) {
     $courseCategory = $DB->get_record('course_categories', ['id' => $course->category]);
     $courseImageUrl = \core_course\external\course_summary_exporter::get_course_image($course);
@@ -38,28 +32,40 @@ foreach($courses as $course) {
         $course->courseimageurl = $OUTPUT->get_generated_image_for_id($course->id);
     }
     $course->progress = (int)(\core_completion\progress::get_course_progress_percentage($course, $USER->id));
-    // if($progress != null) { 
-        // $course->progress = $progress;
-    // } 
     $coursedates = $DB->get_record('course', ['id' => $course->id]);
     if($coursedates->enddate > time() && $coursedates->startdate < time()) {
-        $courseType['inProgress'][] = $course;
+        $data['inProgresscourses'][] = $course;
     } else if($coursedates->enddate < time()) {
-        $courseType['pastcourses'][] = $course;
+        $data['pastcourses'][] = $course;
     } else if($coursedates->startdate > time()) {
-        $courseType['futurecourses'][] = $course;
+        $data['futurecourses'][] = $course;
     } 
     $courselist[] = $course;
 }
-$courseType['allcourses'] = $courselist;
-if($key == 'all'){
-   echo $OUTPUT->render_from_template('block_course_overview/AllCourses', $courseType);
-} else if($key == 'future') {
-    echo $OUTPUT->render_from_template('block_course_overview/futureCourse', $courseType);
-} else if($key == 'past') {
-    echo $OUTPUT->render_from_template('block_course_overview/pastCourse', $courseType);
-} else if($key == 'inProgress'){
-    echo $OUTPUT->render_from_template('block_course_overview/inProgress', $courseType);
+$data['allcourses'] = $courselist;
+$courseCount = count($data[$key.'courses']);
+if($courseCount > $perpagecourse)  {
+    $data[$key.'courses'] = pagination($start,$perpagecourse,$data[$key.'courses']);
+    $pages = ceil($courseCount / $perpagecourse);
+    $perpage = $courseCount % $perpagecourse;
+    $page_no = [];
+    for($i = 1 ; $i <= $pages ; $i++) {
+        $value = new stdClass;
+        $value->index = $i;
+        $page_no[] = $value; 
+    }
+    $data['pagination'] = 1;
+    $data['pages'] = $page_no;
+} else {
+    $data['pagination'] = 0;
 }
+$data['course'] = [];
+foreach($data[$key.'courses'] as $course) {
+    $data['course'][] = $course;
+}
+$data[$key.'courses'] = $data['course'];
 
+$data[$key.'html'] = 1;
+$data['value'] = $key;
+echo  $OUTPUT->render_from_template('block_course_overview/main', $data);
 

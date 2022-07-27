@@ -13,6 +13,69 @@
     {{/displaygroupinginprogress}}
         
 </div>
-<div class="container-fluid p-0">
-    {{> block_course_overview/AllCourses }}
+<div class="container-fluid p-0" id="main_co_over">
+    {{#allhtml}}
+        <div data-region="courses-view" id="co_over_courses" data-display="card" data-grouping="all" data-customfieldname="" data-customfieldvalue="" data-sort="fullname" data-prev-display="card" data-paging="12" data-totalcoursecount="{{{courseCount}}}" data-displaycategories="on" ><div id="paged-content-container-1" data-region="paged-content-container">
+            <div id="page-container-1" data-region="page-container" class="paged-content-page-container" aria-live="polite" style="">
+                <div data-region="paged-content-page" data-page="1">
+                    <div class="card-deck dashboard-card-deck"  data-region="card-deck" role="list">
+                        {{#allcourses}}
+                            {{> block_course_overview/Courses }}
+                        {{/allcourses}}
+                    <div>
+                </div>
+            </div>
+            <div id="pagination_co_over">
+                {{> block_course_overview/pagination }}
+            </div>
+        </div>
+    {{/allhtml}}
+    {{#futurehtml}}
+        <div data-region="courses-view" id="co_over_courses" data-display="card" data-grouping="all" data-customfieldname="" data-customfieldvalue="" data-sort="fullname" data-prev-display="card" data-paging="12" data-totalcoursecount="{{{courseCount}}}" data-displaycategories="on" ><div id="paged-content-container-1" data-region="paged-content-container">
+            <div id="page-container-1" data-region="page-container" class="paged-content-page-container" aria-live="polite" style="">
+                <div data-region="paged-content-page" data-page="1" class="">
+                    <div class="card-deck dashboard-card-deck" data-region="card-deck" role="list">
+                        {{#futurecourses}}
+                            {{> block_course_overview/Courses }}
+                        {{/futurecourses}}
+                    <div>
+                </div>
+            </div>
+                <div id="pagination_co_over">
+                    {{> block_course_overview/pagination }}
+                </div>
+        </div>
+    {{/futurehtml}}
+    {{#pasthtml}}
+        <div data-region="courses-view" id="co_over_courses" data-display="card" data-grouping="all" data-customfieldname="" data-customfieldvalue="" data-sort="fullname" data-prev-display="card" data-paging="12" data-totalcoursecount="{{{courseCount}}}" data-displaycategories="on" ><div id="paged-content-container-1" data-region="paged-content-container">
+            <div id="page-container-1" data-region="page-container" class="paged-content-page-container" aria-live="polite" style="">
+                <div data-region="paged-content-page" data-page="1" class="">
+                    <div class="card-deck dashboard-card-deck" data-region="card-deck" role="list">
+                        {{#pastcourses}}
+                            {{> block_course_overview/Courses }}
+                        {{/pastcourses}}
+                    <div>
+                </div>
+            </div>
+                <div id="pagination_co_over">
+                    {{> block_course_overview/pagination }}
+                </div>
+        </div>
+    {{/pasthtml}}
+    {{#inProgresshtml}}
+        <div data-region="courses-view" id="co_over_courses" data-display="card" data-grouping="all" data-customfieldname="" data-customfieldvalue="" data-sort="fullname" data-prev-display="card" data-paging="12" data-totalcoursecount="{{{courseCount}}}" data-displaycategories="on" ><div id="paged-content-container-1" data-region="paged-content-container">
+            <div id="page-container-1" data-region="page-container" class="paged-content-page-container" aria-live="polite" style="">
+                <div data-region="paged-content-page" data-page="1">
+                    <div class="card-deck dashboard-card-deck" data-region="card-deck" role="list">
+                        {{#inProgresscourses}}
+                            {{> block_course_overview/Courses }}
+                        {{/inProgresscourses}}
+                    <div>
+                </div>
+            </div> 
+            <div id="pagination_co_over">
+                {{> block_course_overview/pagination }}
+            </div>
+        </div>
+    {{/inProgresshtml}}
 </div>

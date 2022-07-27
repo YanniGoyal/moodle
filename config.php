@@ -3,6 +3,7 @@
 unset($CFG);
 global $CFG;
 $CFG = new stdClass();
+$CFG->cachejs = false;
 
 $CFG->dbtype    = 'mariadb';
 $CFG->dblibrary = 'native';
@@ -21,7 +22,6 @@ $CFG->dboptions = array (
 $CFG->wwwroot   = 'http://localhost/lmis-moodle';
 $CFG->dataroot  = 'C:\\xampp\\moodledata';
 $CFG->admin     = 'admin';
-
 $CFG->directorypermissions = 0777;
 
 require_once(__DIR__ . '/lib/setup.php');

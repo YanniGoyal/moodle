@@ -12,7 +12,7 @@
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along wewith Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
  * Settings for the myoverview block
@@ -34,24 +34,24 @@ if ($ADMIN->fulltree) {
             get_string('all', 'block_course_overview'),
             '',
             1));
-
-    $settings->add(new admin_setting_configcheckbox(
-            'block_course_overview/displaygroupinginprogress',
-            get_string('inprogress', 'block_course_overview'),
-            '',
-            1));
-
-    $settings->add(new admin_setting_configcheckbox(
-            'block_course_overview/displaygroupingpast',
-            get_string('past', 'block_course_overview'),
-            '',
-            1));
-
     $settings->add(new admin_setting_configcheckbox(
             'block_course_overview/displaygroupingfuture',
             get_string('future', 'block_course_overview'),
             '',
             1));
+            
+    $settings->add(new admin_setting_configcheckbox(
+            'block_course_overview/displaygroupingpast',
+            get_string('past', 'block_course_overview'),
+            '',
+            1));
+    $settings->add(new admin_setting_configcheckbox(
+    'block_course_overview/displaygroupinginprogress',
+    get_string('inprogress', 'block_course_overview'),
+    '',
+    1));
+
+
     $setting = new admin_setting_configtext('block_course_overview/config_numofcourses',
             new lang_string('defaultnumofcourses', 'block_course_overview'),
             new lang_string('defaultnumofcourses_desc', 'block_course_overview'), 9, PARAM_INT);

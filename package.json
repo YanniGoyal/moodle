@@ -1,5 +1,5 @@
 {
-  "name": "Moodle",
+  "name": "moodle",
   "private": true,
   "description": "Moodle",
   "devDependencies": {
@@ -54,5 +54,24 @@
   },
   "dependencies": {
     "@babel/eslint-parser": "^7.17.0"
-  }
+  },
+  "version": "1.0.0",
+  "main": "Gruntfile.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YanniGoyal/moodle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YanniGoyal/moodle/issues"
+  },
+  "homepage": "https://github.com/YanniGoyal/moodle#readme"
 }
